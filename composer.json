@@ -1,0 +1,43 @@
+{
+  "name": "yiier/yii2-exselect",
+  "description": "infinite selection widget for Yii2.",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii",
+    "yii2",
+    "yii 2",
+    "extension",
+    "widget",
+    "selection"
+  ],
+  "homepage": "https://github.com/yiier/yii2-exselect",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "yiqing",
+      "email": "yiqing_95@qq.com",
+      "homepage": "https://github.com/yiqing95",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/yiier/yii2-exselect/issues",
+    "source": "https://github.com/yiier/yii2-exselect"
+  },
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "yiier\\widgets\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
